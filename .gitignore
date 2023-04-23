@@ -1,0 +1,42 @@
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle files
+.gradle/
+/build/
+
+# Dependencies
+/lib/
+*.jar
+
+# Log files
+/logs/
+*.log
+
+# IDE-specific files
+*.class
+*.code-workspace
+*.project
+*.classpath
+*.factorypath
+
+# Spring Boot specific files
+target/
+!target/*.jar
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Other
+*.tmp
+*.bak
+
+# Ignore certs folder
+src/main/resources/certs
+
+# Ignore application.properties file
+src/main/resources/application.properties
+
